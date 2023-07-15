@@ -1,0 +1,392 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+		font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*************header-section start****************/
+
+.header{
+	width: 100%;
+	background: #fff;
+	padding: 15px 0px;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0px 0px 0px 15px;
+    text-transform: uppercase;
+    color: #28377e;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	color: #f1572b;
+}
+.banner-section{
+	width: 100%;
+	padding: 140px 0px 80px;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+}
+.banner-section h1{
+	font-size: 52px;
+	line-height: 62px;
+	font-weight: 700;
+	color: #fff;
+	margin: 60px 0px 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.arrow{
+	width: 100%;
+	text-align: center;
+	padding: 180px 0px 0px;
+}
+.arrow .fa {
+	font-size: 35px;
+	text-align: center;
+	color: #fff;
+
+}
+/*************header-section end****************/
+
+/*************about-us start****************/
+.about-us{
+	width: 100%;
+	padding: 80px 0px;
+}
+.about-inner{
+	width: 100%;
+	padding: 40px 0px;
+}
+.about-us .about-inner .title{
+	width: 100%;
+	margin: 0px 0px 100px;
+}
+.about-us .about-inner .title .divider{
+	width: 80px;
+	height: 3px;
+	background: #f1572b;
+	margin: 0px 0px 15px;
+}
+.about-us .about-inner .title h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #28377e;
+	text-transform: uppercase;
+}
+.about-us .about-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #b0b0b1;
+}
+/*************about-us end****************/
+
+/*****************what-do start********************/
+.what-do{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/dobg.png") center top no-repeat;
+	background-size: cover;
+}
+.what-do .title{
+	width: 100%;
+	margin: 0px 0px 100px;
+}
+.what-do .title .divider{
+	width: 80px;
+	height: 3px;
+	background: #f1572b;
+	margin: 0px auto 15px;
+}
+.what-do .title h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #28377e;
+	text-align: center;
+	margin: 0px 0px 20px;
+	text-transform: uppercase;
+}
+.what-do .inner-do .img-fluid{
+	width: 100%;
+}
+.inner-do{
+	width: 100%;
+	position: relative;
+}
+.inner-content {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-0%, 0%);
+    
+}
+.inner-content h5{
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.long-arrow {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    transform: translate(0%, 0%);
+}
+/*****************what-do end********************/
+
+/*******************attorney css start***********/
+.attorney{
+	width: 100%;
+	padding: 110px 0px;
+	background: url("../images/atbg.png") center top no-repeat;
+	background-size: cover;
+}
+.attorney .title{
+	width: 100%;
+	margin: 100px 0px 20px;
+}
+.attorney .title .divider{
+	width: 80px;
+	height: 3px;
+	background: #f1572b;
+	margin: 0px 0px 15px;
+}
+.attorney .title h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #fff;
+	text-align: left;
+	margin: 0px 0px 20px;
+	text-transform: uppercase;
+}
+.attorney p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #747cb1;
+	width: 60%;
+
+}
+.attorney .btn-link{
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #f1572b;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.attorney .btn-link:hover{
+	color: #fff;
+}
+
+.attorney .inner-do .img-fluid{
+	width: 100%;
+}
+.attorney .inner-do{
+	width: 100%;
+	position: relative;
+	margin-bottom: 25px;
+}
+.attorney .inner-do .inner-content {
+    width: 100%;
+    text-align: left;
+    height: auto;
+    position: absolute;
+    top: 81%;
+    left: 10%;
+    transform: translate(-0%, 0%);
+}
+.attorney .inner-do .inner-content h5{
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+	text-transform: uppercase;
+}
+/*******************attorney css end***********/
+
+/*******************language css start***********/
+.language{
+	width: 100%;
+	padding: 80px 0px;
+}
+.language .title{
+	width: 100%;
+	margin: 0px 0px 100px;
+}
+.language .title .divider{
+	width: 80px;
+	height: 3px;
+	background: #f1572b;
+	margin: 0px auto 15px;
+}
+.language .title h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #28377e;
+	text-align: center;
+	margin: 0px 0px 20px;
+	text-transform: uppercase;
+}
+.language h5{
+	font-size: 22px;
+	line-height: 32px;
+	color: #28377e;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0px 0px 15px;
+}
+.language p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 600;
+	color: #c3c2c2;
+}
+.language .btn-link{
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #f2622c;
+	background: transparent;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.language .btn-link:hover{
+	color: #28377e;
+}
+/*******************language css end***********/
+/*******************contact-us css start*************/
+.contact-us{
+	width: 100%;
+	padding: 80px 0px;
+	background: #28377e;
+}
+.contact-us .title{
+	width: 100%;
+	margin: 0px 0px 100px;
+}
+.contact-us .title .divider{
+	width: 80px;
+	height: 3px;
+	background: #f1572b;
+	margin: 0px auto 15px;
+}
+.contact-us .title h2{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	margin: 0px 0px 20px;
+	text-transform: uppercase;
+}
+.main-from{
+	width: 100%;
+}
+.main-from .form-control{
+	width: 100%;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #4759a7;
+	border-bottom: 1px solid #eee;
+	background: transparent;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-radius: 0px;
+}
+.main-from input::placeholder, .main-from textarea::placeholder{
+	color: #fff;
+}
+.main-from .form-control:focus {
+    color: #ffffffff;
+    background: transparent;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+    outline: 0;
+    box-shadow: 0 0 0 0.0rem rgba(13,110,253,.25);
+}
+.main-from .btn-info {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #fff;
+    background: #f2622c;
+    margin: 23px 20px 20px 20px;
+    padding: 13px 85px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: 1px solid #f2622c;
+    transition: 1s;
+}
+.main-from .btn-info:hover, .main-from .btn-info:focus{
+	color: #f2622c;
+	background: #fff;
+	border: 1px solid #28377e;
+} 
+/*******************contact-us css end*************/
+
+/*****************footer css start*****************/
+.footer{
+	width: 100%;
+	padding: 20px 0px;
+	background: #15141a;
+}
+.footer .copy-right{
+    width: 100%;
+    padding: 40px 0px;
+}
+.footer .copy-right p{
+	font-size: 20px;
+	color: #444348;
+	line-height: 30px;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin: 0px 0px;
+}
+.footer .icons li{
+	list-style: none;
+	display: inline-block;
+	
+}
+.footer .icons li a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 23px;
+	margin: 20px 0px 0px 20px;
+	color: #444348;
+	text-align: right;
+	padding: 10px 30px 10px 60px;
+}
+.footer .icons li a:hover, .footer .icons li a:focus{
+	color: #008ed6;
+}
+
+/*****************footer css end*****************/
